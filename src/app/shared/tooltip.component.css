@@ -1,0 +1,15 @@
+.crop {
+    border-radius: 25px
+}
+div {
+    cursor: pointer;
+    
+}
+.tool
+{
+    width: 180px;
+    margin-bottom: 15px; 
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px
+}

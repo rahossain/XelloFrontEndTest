@@ -1,0 +1,6 @@
+.floating
+{
+    top:10px;
+    left:50%;
+    position: fixed
+}
