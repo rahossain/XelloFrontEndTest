@@ -21,8 +21,7 @@ export class AppComponent  {
   @HostListener('document:click', ['$event']) onDocumentClick(event: MouseEvent) {
     this.isToolTipVisible = false;
     let id = (<HTMLDivElement>event.target).id;
-  
-    this.isToolTipVisible = (id==="button1" || id==="button2" || id==="tooltip" ) ;
+    this.isToolTipVisible = (id==="button1" || id==="button2" || id==="tooltip" || id === "tooltipContainer") ;
   } 
 
   onClickButtonOne():void
